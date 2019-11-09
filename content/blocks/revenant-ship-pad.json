@@ -5,6 +5,7 @@
     "description": "Transform into a heavy floating missile array.",
     "size": 3,
     "produceTime": 1500,
+    "itemCapacity": 90,
     "requirements": [
         { "item": "copper", "amount": 700},
         { "item": "thorium", "amount": 2000},
