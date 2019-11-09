@@ -1,0 +1,35 @@
+{
+    "type": "mech",
+    "name": "Revenant"
+    "description": "A heavy, hovering missile array, with the intelligence module replaced for a better missile unit.",
+    "speed": 0.01,
+    "maxVelocity": 0.1,
+    "flying":true,
+    "drag": 0.01,
+    "engineSize": 3,
+    "engineOffset": 12,
+    "hitsize": 20,
+    "mass": 5,
+    "health": 1000,
+    "itemCapacity": 200,
+    "buildpower": 1f,
+    "cellTrnsY": 1f,
+    "engineColor": "feb380",
+    "weaponOffsetY": 0,
+    "baseRotateSpeed": 0.06,
+    "rotatespeed": 0.01,
+    "weapon":{
+        "name": "revenant-missiles",
+        "length":3.0,
+        "width":10.0,
+        "reload":70.0,
+        "shots":2,
+        "spacing": 1,
+        "velocityRnd": 0.2,
+        "inaccuracy": 2.0,
+        "alternate": true,
+        "ejectEffect": "none",
+        "bullet": "missileJavelin",
+        "shootSound": "missile"
+    }
+}
