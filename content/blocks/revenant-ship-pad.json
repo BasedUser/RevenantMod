@@ -1,0 +1,26 @@
+{
+    "type": "MechPad",
+    "mech": "revenant",
+    "name": "Revenant Fighter Ship Pad",
+    "description": "Transform into a heavy floating missile array.",
+    "size": 3,
+    "produceTime": 1500,
+    "requirements": [
+        { "item": "copper", "amount": 700},
+        { "item": "thorium", "amount": 2000},
+        { "item": "silicon", "amount": 1500},
+        { "item": "surge-alloy", "amount": 900}
+    ],
+    "consumes": {
+         "power": 3f,
+         "items": {
+              "items": [
+                   {"item":"silicon", "amount":45},
+                   {"item":"titanium", "amount":30}
+              ],
+              "optional": false
+         }
+    }
+    "category": "upgrade",
+    "research": "glaive-ship-pad"
+}
