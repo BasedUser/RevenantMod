@@ -1,6 +1,6 @@
 {
     "type": "mech",
-    "name": "Revenant"
+    "name": "Revenant",
     "description": "A heavy, hovering missile array, with the intelligence module replaced for a better missile unit.",
     "speed": 0.01,
     "maxVelocity": 0.1,
